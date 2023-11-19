@@ -336,8 +336,7 @@
         ] 
     }
 ], [],
-[
-    {
+[    {
         "questionText" : "Είναι καλή ιδέα να χρησιμοποιήσω goto στο τελικό διαγώνισμα.",
         "answerOptions" : [
             { "answerText" : "Σωστό", "isCorrect" : false},
@@ -388,10 +387,57 @@
         ] 
     },
     {
-        "questionText" : "Τι θα τυπωθεί από το ακόλουθο πρόγραμμα;",
+        "questionText" : "Πόσες φορές θα τυπώσει Hello το ακόλουθο πρόγραμμα;",
         "questionImage" : "image7",
         "typeQuestion" : "80",
         "answerOptions" : [] 
+    },
+    {
+        "questionText" : "Θα τελειώσει αυτό το loop: for (i=1;;i++) if (i==0) break;;",
+        "answerOptions" : [
+            { "answerText" : "Όχι, δεν τελειώνει καθώς δεν έχει συνθήκη τερματισμού", "isCorrect" : false},
+            { "answerText" : "Ναι, όταν υπερχειλίσει ο ακέραιος", "isCorrect" : true},
+            { "answerText" : "Όχι, δεν τελειώνει, καθώς ο ακέραιος i αρχικοποιείται στο 1 και μετά αυξάνεται", "isCorrect" : false},
+            { "answerText" : "Μόνο όταν λιώσει η CPU", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Πόσες φορές θα εκτυπώσει Hello το παρακάτω πρόγραμμα;",
+        "questionImage" : "image8",
+        "answerOptions" : [
+            { "answerText" : "10000", "isCorrect" : false},
+            { "answerText" : "500", "isCorrect" :false},
+            { "answerText" : "2000", "isCorrect" : false},
+            { "answerText" : "8000", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Πόσες φορές θα εκτυπώσει Hello το παρακάτω πρόγραμμα;",
+        "questionImage" : "image9",
+        "answerOptions" : [
+            { "answerText" : "0", "isCorrect" : false},
+            { "answerText" : "400", "isCorrect" :true},
+            { "answerText" : "2000", "isCorrect" : false},
+            { "answerText" : "7800", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Θέλω να βρω τον μικρότερο τριψήφιο που έχει 1 στα bit 0(το μικρότερο) και 2: Προτιμώ να χρησιμοποιήσω:",
+        "answerOptions" : [
+            { "answerText" : "for(i=999;i>99;i--) if (i & 0x5) break; found = i;", "isCorrect" : true},
+            { "answerText" : "for(i=100;i<1000;i++) if (i & 0x5) break; found = i;", "isCorrect" : false},
+            { "answerText" : "for(i=999;i>99;i--) if (i | 0x5) break; found = i;", "isCorrect" : false},
+            { "answerText" : "for(i=100;i<1000;i++) if (i | 0x5) break; found = i;", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα δούμε στην κονσόλα αν τρέξουμε  printf(\"Hello!\rWorld\n\")",
+        "answerOptions" : [
+            { "answerText" : "Hello", "isCorrect" : false},
+            { "answerText" : "World", "isCorrect" : false},
+            { "answerText" : "Hello! World", "isCorrect" : false},
+            { "answerText" : "World!", "isCorrect" : true}
+        ] 
     }
 ]
 ]
