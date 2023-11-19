@@ -112,6 +112,11 @@ a {
   justify-content: space-around;
   flex-direction: column;
   width: 70%;
+  height: 100%;
+}
+
+.score-section button{
+  margin-top: 10%;
 }
 
 /* Question section */

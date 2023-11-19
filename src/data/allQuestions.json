@@ -439,5 +439,330 @@
             { "answerText" : "World!", "isCorrect" : true}
         ] 
     }
+], [
+    {
+        "questionText" : "Το πρώτο στοιχείο ενός πίνακα με 10 στοιχεία βρίσκεται στη θέση (index):",
+        "answerOptions" : [
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "10", "isCorrect" : false},
+            { "answerText" : "9", "isCorrect" : false},
+            { "answerText" : "0", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Το τελευταίο στοιχείο ενός πίνακα με ορισμό int students[100] είναι:",
+        "answerOptions" : [
+            { "answerText" : "students[100]", "isCorrect" : false},
+            { "answerText" : "students[99]", "isCorrect" : true},
+            { "answerText" : "students[-1]", "isCorrect" : false},
+            { "answerText" : "students[101]", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ο πιο αποδοτικός τρόπος να αντιγράψω έναν πίνακα 100 στοιχείων είναι με ανάθεση: int a[100], b[100]; b = a.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ένας πίνακας char str[128] πόσα bytes καταλαμβάνει στην μνήμη;",
+        "answerOptions" : [
+            { "answerText" : "128", "isCorrect" : true},
+            { "answerText" : "255", "isCorrect" : false},
+            { "answerText" : "511", "isCorrect" : false},
+            { "answerText" : "1023", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ένας πίνακας int numbers[128] πόσα bytes καταλαμβάνει στην μνήμη;",
+        "answerOptions" : [
+            { "answerText" : "1024", "isCorrect" : false},
+            { "answerText" : "4096", "isCorrect" : false},
+            { "answerText" : "8192", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Αν ο πίνακας char array[100] ξεκινάει στη διεύθυνση 1000, σε ποια διεύθυνση βρίσκεται το στοιχείο array[42];",
+        "answerOptions" : [
+            { "answerText" : "1000", "isCorrect" : false},
+            { "answerText" : "1042", "isCorrect" : true},
+            { "answerText" : "1041", "isCorrect" : false},
+            { "answerText" : "1043", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Αν ο πίνακας int numbers[200] με sizeof(int)=4 ξεκινάει στη διεύθυνση 1000, σε ποια διεύθυνση βρίσκεται το στοιχείο numbers[42];",
+        "answerOptions" : [
+            { "answerText" : "1042", "isCorrect" : false},
+            { "answerText" : "1046", "isCorrect" : false},
+            { "answerText" : "1842", "isCorrect" : false},
+            { "answerText" : "1168", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Δεν υπάρχει πρόβλημα αν προσπελάσω στοιχεία εκτός των ορίων ενός πίνακα.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "char hello[] =\"Hello World\"; printf(\"%c\n\", hello[6])-Τι θα τυπώσει;",
+        "answerOptions" : [
+            { "answerText" : "Η", "isCorrect" : false},
+            { "answerText" : "W", "isCorrect" : true},
+            { "answerText" : "o", "isCorrect" : false},
+            { "answerText" : "(κενό)", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "char hello[] =\"Hello World\"; printf(\"%d\n\", hello[11])-Τι θα τυπώσει;",
+        "answerOptions" : [
+            { "answerText" : "0", "isCorrect" : true},
+            { "answerText" : "0x10", "isCorrect" : false},
+            { "answerText" : "Θα πετάξει σφάλμα γιατί το hello[11] δεν είναι ακέραιος", "isCorrect" : false},
+            { "answerText" : "Θα προκαλέσει segmantation fault γιατί είναι εκτός των ορίων του πίνακα", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Μπορούμε να αρχικόποιησουμε έναν πίνακα με 10 ακεραίους ως εξής: int numbers[10] = {0,1,2,3,4,5,6,7,8,9,10}",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Η συνάρτηση magic:",
+        "questionImage" : "image10",
+        "answerOptions" : [
+            { "answerText" : "Υπολογίζει τον μέσο όρο 100 βαθμών", "isCorrect" : false},
+            { "answerText" : "Υπολογίζει τη διασπορά 100 βαθμών", "isCorrect" : false},
+            { "answerText" : "Είναι λάθος", "isCorrect" : true},
+            { "answerText" : "Υπολογίζει το άθροισμα 100 βαθμών", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "int a[]={5,4,3,1,2,6}; printf(\"%d\n\", a[ a[2] ]); - Τι θα τυπώσει;",
+        "answerOptions" : [
+            { "answerText" : "1", "isCorrect" : true},
+            { "answerText" : "4", "isCorrect" : false},
+            { "answerText" : "3", "isCorrect" : false},
+            { "answerText" : "6", "isCorrect" : false}
+        ] 
+    } 
+], [
+    {
+        "questionText" : "Η διεύθυνση μίας μεταβλητής είναι πάντα ακέραιος αριθμός.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "int x=41; int *ptr=&x; x++; printf(\"%d\n\", *ptr); - Τι θα τυπώσει;",
+        "answerOptions" : [
+            { "answerText" : "41", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : true},
+            { "answerText" : "43", "isCorrect" : false},
+            { "answerText" : "Πού να ξέρω;", "isCorrect" : false}
+        ] 
+    },
+    {
+    "questionText" : "int x=41; int *ptr=&x; (*ptr)++; printf(\"%d\n\", *ptr); - Τι θα τυπώσει;",
+    "answerOptions" : [
+        { "answerText" : "41", "isCorrect" : false},
+        { "answerText" : "42", "isCorrect" : true},
+        { "answerText" : "43", "isCorrect" : false},
+        { "answerText" : "Πού να ξέρω;", "isCorrect" : false}
+    ] 
+    },
+    {
+        "questionText" : "int x=41; int *ptr=&x; ptr++; printf(\"%d\n\", *ptr); - Τι θα τυπώσει;",
+        "answerOptions" : [
+            { "answerText" : "41", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "43", "isCorrect" : false},
+            { "answerText" : "Πού να ξέρω;", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Η τιμή δείκτη NULL στα σημερινά συστήματα είναι ίση με 0.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Οι μεταβλητές double *x και char *c καταλαμβάνουν τον ίδιο χώρο στη μνήμη.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η εντολή y = *&x; στη C είναι:",
+        "answerOptions" : [
+            { "answerText" : "Ισοδύναμη με την y = x;", "isCorrect" : true},
+            { "answerText" : "Ισοδύναμη με την y = &*x;", "isCorrect" : false},
+            { "answerText" : "Ισοδύναμη με την y = *x;", "isCorrect" : false},
+            { "answerText" : "Συντακτικά λανθασμένη", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Έστω ότι η τιμή του int *ptr είναι 42. Η τιμή του δείκτη (ptr + 1) είναι:",
+        "answerOptions" : [
+            { "answerText" : "43", "isCorrect" : false},
+            { "answerText" : "46", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έστω ότι sizeof(int) = 4 και η τιμή του int *ptr είναι 0x42. Η τιμή της έκφρασης ptr + 4 είναι:",
+        "answerOptions" : [
+            { "answerText" : "0x46", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "0x52", "isCorrect" : true},
+            { "answerText" : "0x4C", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Έστω ότι sizeof(double) = 8 και η τιμή του double *ptr είναι 42. Μετά την εντολή ++ptr η τιμή του ptr είναι:",
+        "answerOptions" : [
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "46", "isCorrect" : false},
+            { "answerText" : "43", "isCorrect" : false},
+            { "answerText" : "50", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Η έκφραση (*ptr + 4) είναι ισοδύναμη με την έκφραση ptr[4].",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "int a[] = {10, 20, 30, 40}; int *ptr = &a[1]; printf(\"%d\n\", ptr[1]); - Θα τυπώσει: ",
+        "typeQuestion" : "30",
+        "answerOptions" : [] 
+    },
+    {
+        "questionText" : "Μία μεταβλητή πίνακα συμπεριφέρται ακριβώς όπως ένας δείκτης.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έστω int *p, *q είναι δύο δείκτες και ο καθένας έχει τιμή 42. Τότε η παράσταση p + q είναι:",
+        "answerOptions" : [
+            { "answerText" : "84", "isCorrect" : false},
+            { "answerText" : "166", "isCorrect" : false},
+            { "answerText" : "Δεν είναι δεκτή στη C", "isCorrect" : true},
+            { "answerText" : "0", "isCorrect" : false}
+        ] 
+    }
+], [
+    {
+        "questionText" : "Ο πίνακας double[2][2][2] είναι δισδιάστατος.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ένας πίνακας int array[4][5] περιέχει πόσα int στοιχεία;",
+        "answerOptions" : [
+            { "answerText" : "20", "isCorrect" : true},
+            { "answerText" : "12", "isCorrect" : false},
+            { "answerText" : "80", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Το στοιχείο της τελευταίας στήλης της τελευταίας γραμμής του πίνακα int array[100][200] είναι το:",
+        "answerOptions" : [
+            { "answerText" : "array[0][0]", "isCorrect" : false},
+            { "answerText" : "array[100][200]", "isCorrect" : false},
+            { "answerText" : "array[99]199]", "isCorrect" : true},
+            { "answerText" : "array[199][99]", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Έστω sizeof(double) = 8 και ο πίνακας double coeffs[10][10] - Πόσο είναι το sizeof(coeffs);",
+        "answerOptions" : [
+            { "answerText" : "800", "isCorrect" : true},
+            { "answerText" : "100", "isCorrect" : false},
+            { "answerText" : "160", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η μεταβλητή char *argv[] είναι:",
+        "answerOptions" : [
+            { "answerText" : "Ένας δισδιάστατος πίνακας από χαρακτήρες", "isCorrect" : false},
+            { "answerText" : "Ένας δείκτης σε πίνακα από χαρακτήρες", "isCorrect" : false},
+            { "answerText" : "Ένας πίνακας από δείκτες σε χαρακτήρες", "isCorrect" : true},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Έστω sizeof(char) = 1 και ο πίνακας char map[10][10] - Πόσο είναι το sizeof(map[5]);",
+        "answerOptions" : [
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "10", "isCorrect" : true},
+            { "answerText" : "100", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Έστω char *strings = {\"Hello\",\"fine\",\"world\", NULL}; Το στοιχείο string[1][2] είναι:",
+        "answerOptions" : [
+            { "answerText" : "'e'", "isCorrect" : false},
+            { "answerText" : "NULL", "isCorrect" : false},
+            { "answerText" : "'o'", "isCorrect" : false},
+            { "answerText" : "'n'", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Δεν υπάρχει διαφορά ανάμεσα σε στατικούς και δυναμικούς πίνακες.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έστω sizeof(int) = 4 και sizeof(*int) = 8. Τι θα τυπώσει το ακόλουθο πρόγραμμα; ",
+        "questionImage" : "image11",
+        "typeQuestion" : "8",
+        "answerOptions" : [] 
+    },
+    {
+        "questionText" : "Έστω ότι η διεύθυνση του int array[10][10] είναι 0 και sizeof(int) = 4. Η διεύθυνση του array[5][5] είναι: ",
+        "answerOptions" : [
+            { "answerText" : "220", "isCorrect" : true},
+            { "answerText" : "45", "isCorrect" : false},
+            { "answerText" : "55", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Πόσα bytes στη μνήμη θα προσπαθήσει να δεσμεύσει η κλήση malloc(4 * sizeof(int));",
+        "answerOptions" : [
+            { "answerText" : "4", "isCorrect" : false},
+            { "answerText" : "16", "isCorrect" : false},
+            { "answerText" : "32", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έστω sizeof(double) = 8. Πόσα bytes στη μνήμη θα προσπαθήσει να δεσμεύσει η κλήση malloc(8 * sizeof(double)); ",
+        "typeQuestion" : "64",
+        "answerOptions" : [] 
+    }
+ 
 ]
 ]

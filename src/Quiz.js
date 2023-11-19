@@ -8,6 +8,8 @@ import image6 from "./images/image6.png";
 import image7 from "./images/image7.png";
 import image8 from "./images/image8.png";
 import image9 from "./images/image9.png";
+import image10 from "./images/image10.png";
+import image11 from "./images/image11.png";
 var r = document.querySelector(':root');
 
 export default function Quiz( {onBackToLecturesClick, questions }) {
@@ -26,7 +28,9 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 		"image6" : image6,
 		"image7" : image7,
 		"image8" : image8,
-		"image9" : image9
+		"image9" : image9,
+		"image10" : image10,
+		"image11" : image11
 	}
 	
 	function delay(ms) {
@@ -34,6 +38,10 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 	}	
 	
 	const handleAnswerClick = (isCorrect, index) => {
+		const buttons = document.getElementsByClassName("answerButton");
+		for(let i = 0; i < buttons.length; i++) {
+			buttons[i].disabled = true;
+		}
 		if (isCorrect) {
 		setCurrentScore(currentScore + 1);
 		}
@@ -56,12 +64,13 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 
 	const handleSubmitText = (enteredText, correctText, questionIndex) => {
 		const input = document.getElementById("input" + questionIndex);
+		const correctAnswer = document.getElementById("correctAnswer" + questionIndex);
 		if (enteredText === correctText) {
 			setCurrentScore(currentScore + 1);
 			input.style.borderColor = "#009933";
+			input.style.borderWidth = "4px";
 			r.style.setProperty('--line-color', '#009933');
 		} else {
-			const correctAnswer = document.getElementById("correctAnswer" + questionIndex);
 			correctAnswer.style.visibility = "visible";
 			input.style.borderColor =  "#b30000";
 			r.style.setProperty('--line-color', '#cc0000');
@@ -71,6 +80,7 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 
 
 	const handleNextQuestion = async () => {
+		const buttons = document.getElementsByClassName("answerButton");
 		await delay(500);
 		const line = document.getElementsByClassName("bottom-line")[0];
 		line.classList.add("bottom-line-grow");
@@ -82,6 +92,9 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 		  setCurrentQuestion(nextQuestion);
 		} else {
 		  setShowScore(true);
+		}
+		for(let i = 0; i < buttons.length; i++) {
+			buttons[i].disabled = false;
 		}
 	  };
 	
@@ -122,7 +135,7 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 					{ questions[currentQuestion].typeQuestion ? 
 						(<>
 							<form onSubmit={(event)=> event.preventDefault()}>
-						<input placeholder="Type your anwer" id={"input" + currentQuestion}/>
+						<input placeholder="Type your answer" id={"input" + currentQuestion}/>
 						<button type="submit" onClick={()=>handleSubmitText(document.getElementById("input" + currentQuestion).value, questions[currentQuestion].typeQuestion, currentQuestion)}>Submit</button>
 						</form>
 						<div style={{visibility : 'hidden'}} className='correctAnswer' id={"correctAnswer" + currentQuestion}>Correct answer: {questions[currentQuestion].typeQuestion} </div></> )
