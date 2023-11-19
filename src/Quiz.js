@@ -56,7 +56,7 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 
 	const handleSubmitText = (enteredText, correctText, questionIndex) => {
 		const input = document.getElementById("input" + questionIndex);
-		if (enteredText == correctText) {
+		if (enteredText === correctText) {
 			setCurrentScore(currentScore + 1);
 			input.style.borderColor = "#009933";
 			r.style.setProperty('--line-color', '#009933');
