@@ -1,18 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import allQuestions from './data/allQuestions.json' ;
 import allLectures from './data/allLectures.json';
 
 export default function Lectures({onShowQuizClick}) {
   
   const [selectedQuestions, setSelectedQuestions] = useState([]);
-  const [selectedLecture, setSelectedLecture] = useState(null);
+
   
     const handlePlayClick = (selectedLectureIndex) => {
-      const selectedLecture = allLectures[selectedLectureIndex];
-      const selectedQuestions = allQuestions[selectedLectureIndex];
-  
-      setSelectedLecture(selectedLecture);
-      setSelectedQuestions(selectedQuestions);
+      
+      setSelectedQuestions(allQuestions[selectedLectureIndex]);
   
       onShowQuizClick(selectedQuestions);
     };
