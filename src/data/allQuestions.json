@@ -1,0 +1,397 @@
+[
+    
+    [],
+    [],
+    [],
+
+[
+    {
+        "questionText" : "Έχω μία ερώτηση για την εργασία 0. Τι κάνω;",
+        "answerOptions" : [
+           { "answerText" : "Κατευθείαν ποστάρω στο Piazza με τίτλο: Ερώτηση", "isCorrect" : false},
+           { "answerText" : "Στέλνω mail στον Αυγερινό", "isCorrect" : false},
+           { "answerText" : "Αν δεν έχει απαντηθεί στο Piazza, ανοίγω θέμα με περιγραφικό τίτλο.", "isCorrect" : true},
+           { "answerText" : "Έχει βγει εργασία;", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Πόσες διαφορετικές τιμές μπορεί να πάρει ένα byte με 8 bit;",
+        "answerOptions" : [
+           { "answerText" : "2", "isCorrect" : false},
+           { "answerText" : "2^32", "isCorrect" : false},
+           { "answerText" : "1KB", "isCorrect" : false},
+           { "answerText" : "256", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ποιο είναι ένα παράδειγμα κύριας μνήμης;",
+        "answerOptions" : [
+           { "answerText" : "Flass Drive", "isCorrect" : false},
+           { "answerText" : "Σκληρός Δίσκος", "isCorrect" : false},
+           { "answerText" : "Οπτικός Δίσκος", "isCorrect" : false},
+           { "answerText" : "Μνήμη RAM", "isCorrect" : true}
+        ] 
+    } ,
+    {
+        "questionText" : "Ο αριθμός 0x55 στο δεκαδικό σύστημα είναι:",
+        "answerOptions" : [
+           { "answerText" : "85", "isCorrect" : true},
+           { "answerText" : "76", "isCorrect" : false},
+           { "answerText" : "65", "isCorrect" : false},
+           { "answerText" : "55", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Με πόσα bytes αναπαρίσταται ο τύπος int στη μνήμη;",
+        "answerOptions" : [
+           { "answerText" : "2", "isCorrect" : false},
+           { "answerText" : "4", "isCorrect" : false},
+           { "answerText" : "8", "isCorrect" : false},
+           { "answerText" : "Εξαρτάται", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Πόσους διαφορετικούς αριθμούς μπορώ να αναπαραστήσω με έναν uint64_t;",
+        "answerOptions" : [
+           { "answerText" : "2^64", "isCorrect" : true},
+           { "answerText" : "4 δις", "isCorrect" : false},
+           { "answerText" : "Όλους τους ακεραίους", "isCorrect" : false},
+           { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Πόσο μεγάλος αριθμός είναι περίπου ο 2^64;",
+        "answerOptions" : [
+           { "answerText" : "10^10", "isCorrect" : false},
+           { "answerText" : "10^20", "isCorrect" : true},
+           { "answerText" : "10^30", "isCorrect" : false},
+           { "answerText" : "42", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Όταν το Gagnam Style στο Youtube κόντευε τα 2 δις views, η Google άλλαξε τον τύπο των views. Τι τύπου ήταν αρχικά;",
+        "answerOptions" : [
+           { "answerText" : "char", "isCorrect" : false},
+           { "answerText" : "double", "isCorrect" : false},
+           { "answerText" : "int64_t", "isCorrect" : false},
+           { "answerText" : "int", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Για έναν signed char που έχει τιμή 0xFF (συμπλήρωμα ως προς 2), ποια είναι η δεκαδική τιμή του;",
+        "answerOptions" : [
+           { "answerText" : "1", "isCorrect" : false},
+           { "answerText" : "-1", "isCorrect" : true},
+           { "answerText" : "256", "isCorrect" : false},
+           { "answerText" : "0", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Αν προσθέσω δύο θετικούς αριθμούς τύπου unsigned int το αποτέλεσμα είναι πάντα θετικό;",
+        "answerOptions" : [
+           { "answerText" : "Ναι", "isCorrect" : true},
+           { "answerText" : "Όχι", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Mπορώ να ορίσω μία συνάρτηση με όνομα int;",
+        "answerOptions" : [
+           { "answerText" : "Ναι", "isCorrect" : false},
+           { "answerText" : "Όχι", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Εάν ο χαρακτήρας I έχει κωδικό ASCII 0x49 ποιος είναι ο κωδικός του J;",
+        "answerOptions" : [
+            { "answerText" : "0x50", "isCorrect" : false},
+            { "answerText" : "0x48", "isCorrect" : false},
+            { "answerText" : "0x4A", "isCorrect" : true},
+            { "answerText" : "0x39", "isCorrect" : false}
+        ] 
+    }
+],
+[
+    {
+        "questionText" : "Έχουμε μία ερώτηση στο διάγωνισμα που ζητάει ακέραιο αποτέλεσμα και πρέπει να βάλω στην τύχη κάτι. Τι επιλέγω;",
+        "answerOptions" : [
+            { "answerText" : "3", "isCorrect" : false},
+            { "answerText" : "16", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : true},
+            { "answerText" : "128", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποιο είναι το αποτέλεσμα της πράξης 21 * 2.0;",
+        "answerOptions" : [
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "41.99999", "isCorrect" : false},
+            { "answerText" : "42.0", "isCorrect" : true},
+            { "answerText" : "23", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "int b = 6.67. Ποια είναι η τιμή του b μετά την ανάθεση;",
+        "answerOptions" : [
+            { "answerText" : "7", "isCorrect" : false},
+            { "answerText" : "6.0", "isCorrect" : false},
+            { "answerText" : "6", "isCorrect" : true},
+            { "answerText" : "6.67", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποιο είναι το απότελεσμα του 100 / 50 / 2;",
+        "answerOptions" : [
+            { "answerText" : "100", "isCorrect" : false},
+            { "answerText" : "1.0", "isCorrect" : false},
+            { "answerText" : "4", "isCorrect" : false},
+            { "answerText" : "1", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Με ποιον τρόπο ελέγχουμε αν ένας αριθμός x είναι άρτιος(ζυγός);",
+        "answerOptions" : [
+            { "answerText" : "x % 2 == 1", "isCorrect" : false},
+            { "answerText" : "x & 1", "isCorrect" : false},
+            { "answerText" : "x >> 1", "isCorrect" : false},
+            { "answerText" : "x % 2 == 0", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ποια είναι η αποτίμηση της λογικής παράστασης 42 || 0;",
+        "answerOptions" : [
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "0", "isCorrect" : false},
+            { "answerText" : "43", "isCorrect" : false},
+            { "answerText" : "1", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπώσει το πρόγραμμα: int a = 40; printf(\"%d \", a++);printf(\"%d \", a++);",
+        "answerOptions" : [
+            { "answerText" : "40 42", "isCorrect" : true},
+            { "answerText" : "41 42", "isCorrect" : false},
+            { "answerText" : "40 41", "isCorrect" : false},
+            { "answerText" : "Τίποτα από τα παραπάνω", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποιο από τα παρακάτω δεν είναι τελεστής στη C;",
+        "answerOptions" : [
+            { "answerText" : ">>=", "isCorrect" : false},
+            { "answerText" : "*=", "isCorrect" : false},
+            { "answerText" : "=>", "isCorrect" : true},
+            { "answerText" : ">=", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποια είναι η τιμή της παράστασης 4 << 3;",
+        "answerOptions" : [
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "32", "isCorrect" : true},
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "7", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ερώτηση στη Facebook: Πώς ελέγχω ότι το σημαντίκοτερο bit ενός byte x είναι 1;",
+        "answerOptions" : [
+            { "answerText" : "x & 0x1", "isCorrect" : false},
+            { "answerText" : "x | 1", "isCorrect" : false},
+            { "answerText" : "x & 0x80", "isCorrect" : true},
+            { "answerText" : "x | 256", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποια είναι η τιμή της παράστασης (9 / 10) ? (5 & 3) : (8 | 5);",
+        "answerOptions" : [
+            { "answerText" : "13", "isCorrect" : false},
+            { "answerText" : "0.9", "isCorrect" : false},
+            { "answerText" : "1", "isCorrect" : true},
+            { "answerText" : "11", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποια είναι η τιμή της παράστασης (0xFA << 4 | 0xFA >> 4);",
+        "answerOptions" : [
+            { "answerText" : "0xFAF", "isCorrect" : true},
+            { "answerText" : "0xAF", "isCorrect" : false},
+            { "answerText" : "0xF4", "isCorrect" : false},
+            { "answerText" : "0xFF", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποιoς από τους παρακάτω τελεστές έχει μεγαλύτερη προτεραιότητα;",
+        "answerOptions" : [
+            { "answerText" : "!", "isCorrect" : true},
+            { "answerText" : "+", "isCorrect" : false},
+            { "answerText" : "*", "isCorrect" : false},
+            { "answerText" : "||", "isCorrect" : false}
+        ] 
+    }
+], [
+    {
+        "questionText" : "To do-while και το while loop είναι το ίδιο πράγμα.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Όλες οι εντολές στη C τελειώνουν με semicolon(;).",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Το do-while loop έχει τη δομή ελέγχου που εικονίζεται στο διάγραμμα:",
+        "questionImage" : "image2",
+        "answerOptions" : [
+            { "answerText" : "a", "isCorrect" : false},
+            { "answerText" : "b", "isCorrect" : true},
+            { "answerText" : "c", "isCorrect" : false},
+            { "answerText" : "Κανένα από τα παραπάνω", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η εντολή while(!42) printf(\"yes\n \"); θα τυπώσει yes:",
+        "answerOptions" : [
+            { "answerText" : "0 φορές", "isCorrect" : true},
+            { "answerText" : "42 φορές", "isCorrect" : false},
+            { "answerText" : "άπειρες φορές", "isCorrect" : false},
+            { "answerText" : "δεν είναι έγκυρη στη C", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Το loop while(condition) statement; είναι ισοδύναμο με:",
+        "answerOptions" : [
+            { "answerText" : "for(condition;;statement);", "isCorrect" : false},
+            { "answerText" : "for(;condition;statement);", "isCorrect" : false},
+            { "answerText" : "for(;condition;)statement;", "isCorrect" : true},
+            { "answerText" : "for(;;condition)statement;", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπώσει το ακόλουθο πρόγραμμα: int x=42; if(x>42) printf(\"Hello\"); else printf(\"World\"); ",
+        "answerOptions" : [
+            { "answerText" : "Hello", "isCorrect" : false},
+            { "answerText" : "World", "isCorrect" : true},
+            { "answerText" : "HelloWorld", "isCorrect" : false},
+            { "answerText" : "Hello World", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Για ποια τιμή θα τυπώσει Jackpot! το ακόλουθο πρόγραμμα:",
+        "questionImage": "image3",
+        "answerOptions" : [
+            { "answerText" : "12", "isCorrect" : false},
+            { "answerText" : "93", "isCorrect" : true},
+            { "answerText" : "31", "isCorrect" : false},
+            { "answerText" : "13", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η εντολή if x == 42 printf(\"Hello world\"); είναι δεκτή στη C.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Πότε τελειώνει το loop: int i; for(i=0;; i++);",
+        "answerOptions" : [
+            { "answerText" : "Μετά από 2^32 επαναλήψεις", "isCorrect" : false},
+            { "answerText" : "Όταν το i γίνει αρνητικό", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται από την αρχιτεκτονική του υπολογιστή", "isCorrect" : false},
+            { "answerText" : "Όταν λιώσει η CPU", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Πόσες φορές θα τυπώσει hello world το ακόλουθο πρόγραμμα;",
+        "questionImage": "image4",
+        "answerOptions" : [
+            { "answerText" : "100", "isCorrect" : false},
+            { "answerText" : "200", "isCorrect" : false},
+            { "answerText" : "10000", "isCorrect" : true},
+            { "answerText" : "1000000", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Περσινό θέμα: Τι θα εκτυπωθεί από το ακόλουθο πρόγραμμα:",
+        "questionImage": "image5",
+        "answerOptions" : [
+            { "answerText" : "Σχεδόν ακαριαία ένα @", "isCorrect" : false},
+            { "answerText" : "Μετά από κάποια δευτερόλεπτα εκτέλεσης, ένα @", "isCorrect" : true},
+            { "answerText" : "Θα εκτυπώνει συνεχώς @, επ' άπειρον", "isCorrect" : false},
+            { "answerText" : "Τίποτα από τα παραπάνω", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Το loop int i; for(i = 0; i < 100; i+=2); θα εκτελεστεί:",
+        "answerOptions" : [
+            { "answerText" : "100 φορές", "isCorrect" : false},
+            { "answerText" : "99 φορές", "isCorrect" : false},
+            { "answerText" : "49 φορές", "isCorrect" : false},
+            { "answerText" : "50 φορές", "isCorrect" : true}
+        ] 
+    }
+], [],
+[
+    {
+        "questionText" : "Είναι καλή ιδέα να χρησιμοποιήσω goto στο τελικό διαγώνισμα.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Μόλις έγραψα το collatz.c και έκαν git add και μετά git push. Ξέχασα κάτι;",
+        "answerOptions" : [
+            { "answerText" : "git branch", "isCorrect" : false},
+            { "answerText" : "git gut", "isCorrect" : false},
+            { "answerText" : "git commit", "isCorrect" : true},
+            { "answerText" : "Όχι, όλα καλά. Τι είναι το git?", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Οποιοδήποτε πρόγραμμα χρησιοποιεί switch μπορούμε να το μετατρέψουμε σε if-else και το αντίστροφο.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η εντολή break είναι ο μόνος τρόπος να σταματήσουμε έναν βρόγχο.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπωθεί από το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image1",
+        "answerOptions" : [
+            { "answerText" : "two", "isCorrect" :false},
+            { "answerText" : "two three", "isCorrect" : false},
+            { "answerText" : "two three default", "isCorrect" : false},
+            { "answerText" : "Δεν είναι δεκτό στη C", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπωθεί από το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image6",
+        "answerOptions" : [
+            { "answerText" : "two", "isCorrect" : false},
+            { "answerText" : "two three", "isCorrect" : true},
+            { "answerText" : "two three default", "isCorrect" : false},
+            { "answerText" : "Δεν είναι δεκτό στη C", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπωθεί από το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image7",
+        "typeQuestion" : "80",
+        "answerOptions" : [] 
+    }
+]
+]

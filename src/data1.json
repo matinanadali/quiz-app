@@ -1,0 +1,20 @@
+[
+    {
+        "questionText" : "What is the capital of France?",
+        "answerOptions" : [
+           { "answerText" : "Paris", "isCorrect" : true},
+           { "answerText" : "London", "isCorrect" : false},
+           { "answerText" : "Atens", "isCorrect" : false},
+           { "answerText" : "New", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "What is the capital of Germany?",
+        "answerOptions" : [
+           { "answerText" : "Pari", "isCorrect" : false},
+           { "answerText" : "Berlin", "isCorrect" : true},
+           { "answerText" : "Athens", "isCorrect" : false},
+           { "answerText" : "New", "isCorrect" : false}
+        ] 
+    }  
+]

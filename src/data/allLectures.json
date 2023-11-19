@@ -1,0 +1,76 @@
+[
+    {
+        "lecture-title" : "Διάλεξη 0 : Καλημέρα κόσμε",
+        "presentation-link" :  "https://progintro.github.io/resources/lec00.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=32e7b53a",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=4fcd4ee"
+    },
+    {
+        "lecture-title" : "Διάλεξη 1 : Γραμμή Εντολών, Πρόγραμματα και Μεταγλώττιση",
+        "presentation-link" :  "https://progintro.github.io/resources/lec01.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=3d6375b4",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=5b186bb4"
+    },
+    {
+        "lecture-title" : "Διάλεξη 2: Συναρτήσεις και Version Control",
+        "presentation-link" :  "https://progintro.github.io/resources/lec02.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=5fe0ebb",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=f676af5"
+    },
+    {
+        "lecture-title" : "Διάλεξη 3: Μνήμη και Μεταβλητές",
+        "presentation-link" :  "https://progintro.github.io/resources/lec03.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c1cc3277",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=2f127de0"
+    },
+    {
+        "lecture-title" : "Διάλεξη 4: Τελεστές",
+        "presentation-link" :  "https://progintro.github.io/resources/lec04.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c1cc3277",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=2f127de0"
+    },
+    {
+        "lecture-title" : "Διάλεξη 5: Εντολές και Ροή Ελέγχου",
+        "presentation-link" :  "https://progintro.github.io/resources/lec05.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=ebfad3bc",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=a08db674"
+    },
+    {
+        "lecture-title" : "Διάλεξη 6: Επίλυση Προβλημάτων",
+        "presentation-link" :  "https://progintro.github.io/resources/lec06.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c3484fb9",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=9d898fa7"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 7: Δομές Ελέγχου #2",
+        "presentation-link" :  "https://progintro.github.io/resources/lec07.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=5a1ff4d4",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=9234acc5"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 8: Πίνακες",
+        "presentation-link" :  "https://progintro.github.io/resources/lec08.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=3409c6f6",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=a5a7c6ac"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 9: Δείκτες",
+        "presentation-link" :  "https://progintro.github.io/resources/lec09.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/player?rid=952fd0a2",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=cc4da411"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 10: Πίνακες και Δείκτες",
+        "presentation-link" :  "https://progintro.github.io/resources/lec10.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=8f62bf41",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=62e9f35c"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 11: Δεδομένα Εισόδου",
+        "presentation-link" :  "https://progintro.github.io/resources/lec11.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=6bc33f",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=dc1904c8"
+    }
+
+
+]
