@@ -144,11 +144,31 @@ a {
   margin-bottom: 12px;
 }
 
-.question-section img {
+.question-image {
   width: 300px;
   margin: 10px 0;
 }
 
+.backtolectures {
+ width: 150px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  padding: 8px;
+  margin: 15px 0px;
+  border: 5px solid #234668;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-icon {
+  width: 24px;
+  padding-right: 2%;
+}
 /* Answer Section */
 .answer-section {
   display: flex;
