@@ -117,7 +117,7 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 			) : (
 			    <div className="question-box">
 					<div className='question-section'>
-					<button className='backtolectures'  onClick={onBackToLecturesClick}><img src={back_icon} className='back-icon' />Back to lectures</button>
+					<button className='backtolectures'  onClick={onBackToLecturesClick}><img alt="" src={back_icon} className='back-icon' />Back to lectures</button>
 						<div className='question-count'>
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
