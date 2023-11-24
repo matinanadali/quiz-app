@@ -764,5 +764,132 @@
         "answerOptions" : [] 
     }
  
+], [],
+[
+    {
+        "questionText" : "Υπάρχουν μόνο δύο κατηγορίες μνήμης : η στοίβα και ο σωρός.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Για να βεβαιωθώ ότι ελευθέρωσα τη μνήμη στο σωρό τρέχω free δύο φορές.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Όταν αφαιρούμε ένα στοιχείο από μία στοίβα με πολλά στοιχεία, αυτό είναι:",
+        "answerOptions" : [
+            { "answerText" : "Πάντα το τελευταίο που βάλαμε στη στοίβα", "isCorrect" : true},
+            { "answerText" : "Πάντα το πρώτο που βάλαμε στη στοίβα", "isCorrect" : false},
+            { "answerText" : "Οποιοδήποτε στοιχείο της στοίβας", "isCorrect" : false},
+            { "answerText" : "Το 42ο στη σειρά", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Όταν αποδεσμεύουμε τη μνήμη ενός στοιχείου από έναν σωρό, αυτό το στοιχείο είναι:",
+        "answerOptions" : [
+            { "answerText" : "Πάντα το τελευταίο που βάλαμε στο σωρό", "isCorrect" : false},
+            { "answerText" : "Πάντα το πρώτο που βάλαμε στο σωρό", "isCorrect" : false},
+            { "answerText" : "Οποιοδήποτε στοιχείο του σωρού", "isCorrect" : true},
+            { "answerText" : "Το 42ο στη σειρά", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Τα στοιχεία του σωρού αποθηκεύονται σε μία συνεχόμενη περιοχή της μνήμης.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έχω να δημιούργησω έναν μεγάλο πίνακα (10^6 στοιχεία) - Επιλέγω:",
+        "answerOptions" : [
+            { "answerText" : "Στοίβα", "isCorrect" : false},
+            { "answerText" : "Σωρό", "isCorrect" : true},
+            { "answerText" : "Στίβο", "isCorrect" : false},
+            { "answerText" : "Να μειώσω τον αριθμό των στοιχείων", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Θέλω να αποθηκεύσω 10^9 double στοιχεία - Τι κάνω;",
+        "answerOptions" : [
+            { "answerText" : "int *array = malloc(1000000000);", "isCorrect" : false},
+            { "answerText" : "double array[1000000000];", "isCorrect" : false},
+            { "answerText" : "double *array = malloc(1000000000);", "isCorrect" : false},
+            { "answerText" : "double *array = malloc(1000000000 * sizeof(double);", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Αποδεσμεύω μνήμη στη στοίβα με τη free.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Αλλάζω το μέγεθος της δεσμευμένης μνήμης στο σωρό με τη realloc.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η calloc είναι σαν τη malloc απλά μηδενίζει όλα τα στοιχεία της μνήμης.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η malloc μπορεί να σμικρύνει τη μνήμη στην οποία δείχνει ένας δείκτης.",
+        "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έστω ulimit -s = 8192 και το activation record της foo είναι 1024 bytes. Πόσες αναδρομικές κλήσεις μέχρι να σκάσει;",
+        "answerOptions" : [
+            { "answerText" : "~8", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "~400", "isCorrect" : false},
+            { "answerText" : "~8000", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Θέλω να δημιουργήσω έναν πίνακα 5x5 - Αυτή η υλοποίηση είναι:",
+        "questionImage" : "image12",
+        "answerOptions" : [
+            { "answerText" : "Σωστή", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Θέλω να δημιουργήσω έναν πίνακα 5x5 - Αυτή η υλοποίηση είναι:",
+        "questionImage" : "image13",
+        "answerOptions" : [
+            { "answerText" : "Σωστή", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Θέλω να δημιουργήσω έναν πίνακα 5x5 - Αυτή η υλοποίηση είναι:",
+        "questionImage" : "image14",
+        "answerOptions" : [
+            { "answerText" : "Σωστή", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Έχω 16ΚΒ ελεύθερη μνήμη και τρέχω malloc(8000) - Η κλήση αυτή σίγουρα θα πετύχει",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    }
 ]
 ]

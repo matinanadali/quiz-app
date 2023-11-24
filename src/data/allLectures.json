@@ -70,7 +70,20 @@
         "presentation-link" :  "https://progintro.github.io/resources/lec11.pdf",
         "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=6bc33f",
         "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=dc1904c8"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 12: Μνήμη",
+        "presentation-link" :  "https://progintro.github.io/resources/lec12.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=ed49bb64",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c28fab8b"
+    }, 
+    {
+        "lecture-title" : 	"Διάλεξη 13: Επίλυση προβλημάτων",
+        "presentation-link" :  "#",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c282f3f5",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=a1eda1a7"
     }
+
 
 
 ]
