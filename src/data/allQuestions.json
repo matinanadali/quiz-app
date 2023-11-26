@@ -896,8 +896,8 @@
         "questionText" : "Για να ορίσω μία μακροεντολή (macro) χρησιμοποιώ την εντολή:",
         "answerOptions" : [
             { "answerText" : "#ifdef", "isCorrect" : false},
-            { "answerText" : "#include", "isCorrect" : true},
-            { "answerText" : "#define", "isCorrect" : false},
+            { "answerText" : "#include", "isCorrect" : false},
+            { "answerText" : "#define", "isCorrect" : true},
             { "answerText" : "#ifndef", "isCorrect" : false}
         ] 
     },
@@ -913,7 +913,7 @@
     {
         "questionText" : "Τι θα τυπώσει το παρακάτω πρόγραμμα;",
          "answerOptions" : [],
-         "answerText" : "11",
+         "typeQuestion" : "11",
          "questionImage" : "image15"
     },
     {
