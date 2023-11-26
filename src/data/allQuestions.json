@@ -891,5 +891,115 @@
             { "answerText" : "Λάθος", "isCorrect" : true}
         ] 
     }
+], [
+    {
+        "questionText" : "Για να ορίσω μία μακροεντολή (macro) χρησιμοποιώ την εντολή:",
+        "answerOptions" : [
+            { "answerText" : "#ifdef", "isCorrect" : false},
+            { "answerText" : "#include", "isCorrect" : true},
+            { "answerText" : "#define", "isCorrect" : false},
+            { "answerText" : "#ifndef", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "H έξοδος του προεπεξεργαστή είναι ένα αρχείο:",
+        "answerOptions" : [
+            { "answerText" : "Δυαδικού κώδικα", "isCorrect" : false},
+            { "answerText" : "Κώδικα assembly", "isCorrect" : false},
+            { "answerText" : "Πηγαίου κώδικα", "isCorrect" : true},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπώσει το παρακάτω πρόγραμμα;",
+         "answerOptions" : [],
+         "answerText" : "11",
+         "questionImage" : "image15"
+    },
+    {
+        "questionText" : "H συνάρτηση getchar() επιστρέφει δεδομένα τύπου:",
+        "answerOptions" : [
+            { "answerText" : "int", "isCorrect" :true},
+            { "answerText" : "char", "isCorrect" : false},
+            { "answerText" : "double", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ψάχνω έναν γνωστό μου σε αμφιθέατρο διαστάσεων n x n - ο αλγόριθμός μου είναι σε χρόνο:",
+        "answerOptions" : [
+            { "answerText" : "Ο(n)", "isCorrect" :false},
+            { "answerText" : "O(sqrt(n))", "isCorrect" : false},
+            { "answerText" : "O(n^2)", "isCorrect" : true},
+            { "answerText" : "O(1)", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Μετράω τα ψηφία οποιουδήποτε αριθμού n μου δοθεί. Η χρονική πολυπλοκότητα του αλγορίθμου μου είναι:",
+        "answerOptions" : [
+            { "answerText" : "Ο(n)", "isCorrect" :false},
+            { "answerText" : "O(sqrt(n))", "isCorrect" : false},
+            { "answerText" : "O(n^2)", "isCorrect" : false},
+            { "answerText" : "O(log(n))", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ένας αλγόριθμος μπορεί να έχει πολυπλοκότητα Ο(n^2 + log(n)).",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ένας αλγόριθμος έχει χρονική πολυπλοκότητα Ο(n). Αυτό σημαίνει ότι χρειάζεται γραμμικό χρόνο:",
+        "answerOptions" : [
+            { "answerText" : "στην καλύτερη (πιο γρήγορη) περίπτωση", "isCorrect" :false},
+            { "answerText" : "στη χειρότερη (πιο αργή) περίπτωση", "isCorrect" : true},
+            { "answerText" : "στη μέση περίπτωση", "isCorrect" : false},
+            { "answerText" : "σε κάθε περίπτωση", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Μια συνάρτηση παίρνει έναν αριθμό n και επιστρέφει πόσα bit είναι 1. Πόσο γρήγορη μπορώ να κάνω αυτή τη συνάρτηση;",
+        "answerOptions" : [
+            { "answerText" : "O(n^3)", "isCorrect" :false},
+            { "answerText" : "O(n^2)", "isCorrect" : false},
+            { "answerText" : "O(n)", "isCorrect" : false},
+            { "answerText" : "O(sqrt(n))", "isCorrect" : false},
+            { "answerText" : "O(log(n))", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Η παρακάτω συνάρτηση πολλαπλασιάζει 2 πίνακες m1 και m2 διαστάσεων Ν x Ν. Η χρονική πολυπλοκότητα του αλγορίθμου είναι:",
+        "questionImage": "image16",
+        "answerOptions" : [
+            { "answerText" : "O(n^2)", "isCorrect" :false},
+            { "answerText" : "O(n!)", "isCorrect" : false},
+            { "answerText" : "O(n)", "isCorrect" : false},
+            { "answerText" : "O(τρέχα γύρευε))", "isCorrect" : false},
+            { "answerText" : "O(log(n)", "isCorrect" : false},
+            { "answerText" : "O(n^3)", "isCorrect" :true}
+        ] 
+    },
+    {
+        "questionText" : "Ο υπολογισμός αθροίσματος τέλειων τετραγώνων έχει χωρική πολυπλοκότητα:",
+        "questionImage": "image17",
+        "answerOptions" : [
+            { "answerText" : "O(n)", "isCorrect" :false},
+            { "answerText" : "O(n^2)", "isCorrect" : false},
+            { "answerText" : "O(1)", "isCorrect" : true},
+            { "answerText" : "O(sqrt(n))", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η χωρική πολυπλοκότητα του παρακάτω αναδρομικού αλγορίθμου είναι:",
+        "questionImage": "image18",
+        "answerOptions" : [
+            { "answerText" : "O(n)", "isCorrect" :false},
+            { "answerText" : "O(n^2)", "isCorrect" : false},
+            { "answerText" : "O(log(n))", "isCorrect" : true},
+            { "answerText" : "O(sqrt(n))", "isCorrect" : false}
+        ] 
+    }
 ]
 ]

@@ -79,9 +79,15 @@
     }, 
     {
         "lecture-title" : 	"Διάλεξη 13: Επίλυση προβλημάτων",
-        "presentation-link" :  "#",
+        "presentation-link" :  "",
         "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c282f3f5",
         "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=a1eda1a7"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 14: Πολυπλοκότητα και Προεπεξεργαστής",
+        "presentation-link" :  "https://progintro.github.io/resources/lec14.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/player?rid=e0a96e94",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=1c756203"
     }
 
 
