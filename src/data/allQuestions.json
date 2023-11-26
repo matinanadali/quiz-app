@@ -891,7 +891,7 @@
             { "answerText" : "Λάθος", "isCorrect" : true}
         ] 
     }
-], [
+],[], [
     {
         "questionText" : "Για να ορίσω μία μακροεντολή (macro) χρησιμοποιώ την εντολή:",
         "answerOptions" : [
