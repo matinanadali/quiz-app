@@ -1001,5 +1001,123 @@
             { "answerText" : "O(sqrt(n))", "isCorrect" : false}
         ] 
     }
+], [
+    {
+        "questionText" : "Υπάρχουν μόνο 2 είδη εμβέλειας μεταβλητών: τοπικές και παγκόσμιες.",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Οι μεταβλητές παγκόσμιας εμβέλειας (global scope) δηλώνονται:",
+        "answerOptions" : [
+            { "answerText" : "Μέσα στη συνάρτηση main", "isCorrect" :false},
+            { "answerText" : "Έξω από οποιαδήποτε συνάρτηση", "isCorrect" : true},
+            { "answerText" : "Μέσα σε οποιοδήποτε συνάρτηση", "isCorrect" : false},
+            { "answerText" : "Δεν υπάρχουν μεταβλητές παγκόσμιας εμβέλειας", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Η εντολή char str[] = \"hello\" αποθηκεύει τον πίνακα str",
+        "answerOptions" : [
+            { "answerText" : "Στη στοίβα", "isCorrect" :false},
+            { "answerText" : "Στο σωρό", "isCorrect" : false},
+            { "answerText" : "Στη στατική μνήμη", "isCorrect" : false},
+            { "answerText" : "Στη στοίβα ή στη στατική μνήμη ανάλογα με το σημείο δήλωσης", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Πού αποθηκεύονται οι τοπικές μεταβλητές μίας συνάρτησης;",
+        "answerOptions" : [
+            { "answerText" : "Στη στοίβα", "isCorrect" :false},
+            { "answerText" : "Στο σωρό", "isCorrect" : false},
+            { "answerText" : "Στη στατική μνήμη", "isCorrect" : false},
+            { "answerText" : "Στη στοίβα ή στη στατική μνήμη ανάλογα με το αν δηλώθηκε static", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "char *s1 = \"World \", s2[] = \"Hello\"; strcpy(s2, s1); printf(\"%s\n\", s2); - Τι θα τυπώσει;" ,
+        "answerOptions" : [
+            { "answerText" : "Hello", "isCorrect" :false},
+            { "answerText" : "World", "isCorrect" : true},
+            { "answerText" : "HelloWorld", "isCorrect" : false},
+            { "answerText" : "Θα κρασάρει", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "Ποια η τιμή της έκφρασης strcmp(\"Hodor\", \"Hodor\");" ,
+        "answerOptions" : [
+            { "answerText" : "0", "isCorrect" :true},
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "Hodor", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "char str[100]; strpcy(str, \"Hi\"); strcat(str, \"How\");strcat(str, \"are you doing\");printf(\"%s\", str) - Τι θα τυπώσει;" ,
+        "answerOptions" : [
+            { "answerText" : "Hi", "isCorrect" :false},
+            { "answerText" : "How are you doing", "isCorrect" : false},
+            { "answerText" : "HiHow are you doing", "isCorrect" : true},
+            { "answerText" : "Θα κρασάρει", "isCorrect" : false}
+        ] 
+    },
+    {
+        "questionText" : "char fruit[10]; strpcy(str, \"banana\"); strcat(fruit, fruit);strcat(fruit, fruit);printf(\"%s\", fruit) - Τι θα τυπώσει;" ,
+        "answerOptions" : [
+            { "answerText" : "banana", "isCorrect" :false},
+            { "answerText" : "bananabanana", "isCorrect" : false},
+            { "answerText" : "bananabananabananabanana", "isCorrect" : false},
+            { "answerText" : "Πιθανόν θα κρασάρει", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ο ακόλουθος κώδικας είναι σωστός.",
+        "questionImage" : "image19",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ο ακόλουθος κώδικας είναι σωστός.",
+        "questionImage" : "image20",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Τι θα τυπώσει το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image21",
+         "answerOptions" : [],
+         "typeQuestion" : "4" 
+    },
+    {
+        "questionText" : "Η πολυπλοκότητα Ο(n) είναι πιο αργή από την O(n^2).",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ποια από τις παρακάτω πολυπλοκότητες είναι η πιο αργή;",
+        "answerOptions" : [
+            { "answerText" : "Ο(n)", "isCorrect" :false},
+            { "answerText" : "O(2^n)", "isCorrect" : true},
+            { "answerText" : "O(1)", "isCorrect" : false},
+            { "answerText" : "O(log(n))", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Ποια από τις παρακάτω πολυπλοκότητες είναι η πιο γρήγορη;",
+        "answerOptions" : [
+            { "answerText" : "Ο(n)", "isCorrect" :false},
+            { "answerText" : "O(2^n)", "isCorrect" : false},
+            { "answerText" : "O(1)", "isCorrect" : true},
+            { "answerText" : "O(log(n))", "isCorrect" : false}
+        ]
+    }
 ]
 ]

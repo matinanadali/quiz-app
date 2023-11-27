@@ -88,6 +88,12 @@
         "presentation-link" :  "https://progintro.github.io/resources/lec14.pdf",
         "lecture-link-1" : "https://delos.uoa.gr/opendelos/player?rid=e0a96e94",
         "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=1c756203"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 15: Εμβέλεια, Μνήμη και Συμβολοσειρές",
+        "presentation-link" :  "https://progintro.github.io/resources/lec15.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=ef945b00",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=b75ade8a"
     }
 
 

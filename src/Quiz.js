@@ -18,6 +18,9 @@ import image15 from "./images/image15.png";
 import image16 from "./images/image16.png";
 import image17 from "./images/image17.png";
 import image18 from "./images/image18.png";
+import image19 from "./images/image19.png";
+import image20 from "./images/image20.png";
+import image21 from "./images/image21.png";
 var r = document.querySelector(':root');
 
 export default function Quiz( {onBackToLecturesClick, questions }) {
@@ -45,7 +48,10 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 		"image15" : image15,
 		"image16" : image16,
 		"image17" : image17,
-		"image18" : image18
+		"image18" : image18,
+		"image19" : image19,
+		"image20" : image20,
+		"image21" : image21
 	}
 	
 	function delay(ms) {
