@@ -1119,5 +1119,95 @@
             { "answerText" : "O(log(n))", "isCorrect" : false}
         ]
     }
+], [
+    {
+        "questionText" : "Πώς διαβάζω έναν ακέραιο με την scanf;",
+        "answerOptions" : [
+            { "answerText" : "scanf(\"%d\", number)", "isCorrect" :false},
+            { "answerText" : "scanf(\"d%\", number)", "isCorrect" : false},
+            { "answerText" : "scanf(\"%d\", &number)", "isCorrect" : true},
+            { "answerText" : "scanf(\"&d\", %number)", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Η συνάρτηση fopen μόλις απέτυχε να ανοίξει ένα αρχείο - επιστρέφει:",
+        "answerOptions" : [
+            { "answerText" : "1", "isCorrect" :false},
+            { "answerText" : "-1", "isCorrect" : false},
+            { "answerText" : "NULL", "isCorrect" : true},
+            { "answerText" : "Τίποτα, απλά κρασάρει", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Είναι σωστό το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image22",
+         "answerOptions" : [
+            { "answerText" : "Ναι", "isCorrect" : false},
+            { "answerText" : "Όχι", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "Ποια τα περιεχόμενα του αρχείου foo.txt μετά την εκτέλεση του παρακάτω; (υποθέτω ότι η fopen επιτυγχάνει)",
+        "questionImage" : "image23",
+        "answerOptions" : [
+            { "answerText" : "Hello", "isCorrect" :false},
+            { "answerText" : "Hello World", "isCorrect" : false},
+            { "answerText" : "Ό,τι είχε πριν τρέξω το πρόγραμμα", "isCorrect" : true},
+            { "answerText" : "foo.txt", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Ο παρακάτω κώδικας είναι σε Javascript, μία γλώσσα που δεν έχουμε ξαναδεί. Τι χρονική πολυπλοκότητα έχει ως προς το n;",
+        "questionImage" : "image24",
+        "answerOptions" : [
+            { "answerText" : "Ο(n)", "isCorrect" :false},
+            { "answerText" : "Ο(log(n))", "isCorrect" : false},
+            { "answerText" : "O(n^2)", "isCorrect" : true},
+            { "answerText" : "O(2^n)", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "To foo.txt περιέχει τον αριθμό 42. Τι θα τυπώσει το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image25",
+        "answerOptions" : [
+            { "answerText" : "40", "isCorrect" :false},
+            { "answerText" : "42", "isCorrect" : false},
+            { "answerText" : "foo", "isCorrect" : false},
+            { "answerText" : "Άγνωστο", "isCorrect" : true}
+        ]
+    },
+    {
+        "questionText" : "Είναι σωστό το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image26",
+         "answerOptions" : [
+            { "answerText" : "Ναι", "isCorrect" : false},
+            { "answerText" : "Όχι", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "To stderror έχει συνήθως file descriptor με αριθμό:",
+        "answerOptions" : [
+            { "answerText" : "0", "isCorrect" :false},
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "2", "isCorrect" : true},
+            { "answerText" : "3", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Η πρότυπη είσοδος stdin και τα ανοιγμένα αρχεία στη C δεν έχουν καμία σχέση.",
+         "answerOptions" : [
+            { "answerText" : "Σωστό", "isCorrect" : false},
+            { "answerText" : "Λάθος", "isCorrect" : true}
+        ] 
+    },
+    {
+        "questionText" : "To αρχείο input.txt περιέχει τα bytes 0xfe 0xca 0xef 0xbe - αν διαβάσουμε έναν int σε μορφή little endian θα πάρουμε:",
+        "answerOptions" : [
+            { "answerText" : "0xfecaefbe", "isCorrect" :false},
+            { "answerText" : "0xefbefeca", "isCorrect" : false},
+            { "answerText" : "0xbeefcafe", "isCorrect" : true},
+            { "answerText" : "0xcafebeef", "isCorrect" : false}
+        ]
+    }
 ]
 ]
