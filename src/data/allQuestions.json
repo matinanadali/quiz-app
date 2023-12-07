@@ -1209,5 +1209,102 @@
             { "answerText" : "0xcafebeef", "isCorrect" : false}
         ]
     }
+], [
+    {
+    "questionText" : "Έχει νόημα να τρέξω δυαδική αναζήτηση σε μη ταξινομημένο πίνακα.",
+    "answerOptions" : [
+       { "answerText" : "Σωστό", "isCorrect" : false},
+       { "answerText" : "Λάθος", "isCorrect" : true}
+   ] 
+},
+{
+    "questionText" : "Ψάχνω να βρω ένα στοιχείο σε ένα πίνακα n θέσεων - χρησιμοποιώ:",
+    "answerOptions" : [
+        { "answerText" : "Γραμική αναζήτηση", "isCorrect" :true},
+        { "answerText" : "Δυαδική αναζήτηση", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Αυτή η υλοποίηση της binary search είναι σωστή.",
+    "questionImage" : "image27",
+    "answerOptions" : [
+        { "answerText" : "Σωστό", "isCorrect" :false},
+        { "answerText" : "Λάθος", "isCorrect" : true}
+    ]
+},
+{
+    "questionText" : "Στη γλώσσα C η έκφραση 3^3 αποτιμάται ως:",
+    "answerOptions" : [
+        { "answerText" : "3", "isCorrect" :false},
+        { "answerText" : "0", "isCorrect" : true},
+        { "answerText" : "27", "isCorrect" : false},
+        { "answerText" : "81", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Ποια μέθοδος ταξινόμησης είναι η πιο γρήγορη στην χειρότερη περίπτωση;",
+    "answerOptions" : [
+        { "answerText" : "insertion sort", "isCorrect" :false},
+        { "answerText" : "selection sort", "isCorrect" : false},
+        { "answerText" : "quicksort", "isCorrect" : false},
+        { "answerText" : "bubblesort", "isCorrect" : false},
+        {"answerText" : "Καμία, όλες είναι Ο(n^2)", "isCorrect" : true}
+    ]
+},
+{
+    "questionText" : "Η χρονική πολυπλοκότητaα στη μέση περίπτωση (average case) της quicksort είναι:",
+    "answerOptions" : [
+        { "answerText" : "Ο(n^2)", "isCorrect" :false},
+        { "answerText" : "O(nlog(n))", "isCorrect" : true},
+        { "answerText" : "O(n)", "isCorrect" : false},
+        { "answerText" : "O(1)", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Ψάχνω αν η αριθμημένη θέση μου 3-13 υπάρχει (κάποιες λείπουν) στην αίθουσα προβολής N x N θέσεων - χρειάζομαι τόσα βήματα:",
+    "answerOptions" : [
+        { "answerText" : "Ο(n^2)", "isCorrect" :false},
+        { "answerText" : "O(log(n))", "isCorrect" : true},
+        { "answerText" : "O(2^n)", "isCorrect" : false},
+        { "answerText" : "O - μετά τον κόβιντ δεν έχει βγει καμία ταινία της προκοπής", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Ποιος είναι χρονικά ο πιο αποδοτικός τρόπος να ταξινόμησεις 10^6 ακεραίους των 32 bit;",
+    "answerOptions" : [
+        { "answerText" : "bubblesort", "isCorrect" :false},
+        { "answerText" : "insertion sort", "isCorrect" : false},
+        { "answerText" : "merge sort", "isCorrect" : true},
+        { "answerText" : "selection sort", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Αναζητώ έναν ακέραιο σε έναν ταξινομημένο πίνακα 10^15 ~ 2^50 στοιχείων - Με δυαδική αναζήτηση θα χρειαστώ τόσα βήματα:",
+    "answerOptions" : [
+        { "answerText" : "10^15", "isCorrect" :false},
+        { "answerText" : "10^7.5", "isCorrect" : false},
+        { "answerText" : "2^10", "isCorrect" : false},
+        { "answerText" : "50", "isCorrect" : true}
+    ]
+},
+{
+    "questionText" : "Ποια είναι η χρονική πολυπλοκότητα της bubblesort;",
+    "answerOptions" : [
+        { "answerText" : "O(n)", "isCorrect" :false},
+        { "answerText" : "O(n^2)", "isCorrect" : true},
+        { "answerText" : "O(log(n))", "isCorrect" : false},
+        { "answerText" : "O(log(n))", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Ποιος αλγόριθμος έχει αυτή τη δομή;",
+    "questionImage" : "image28",
+    "answerOptions" : [
+        { "answerText" : "quicksort", "isCorrect" :false},
+        { "answerText" : "merge sort", "isCorrect" : true},
+        { "answerText" : "insertion sort", "isCorrect" : false},
+        { "answerText" : "bubblesort", "isCorrect" : false}
+    ]
+}
 ]
 ]
