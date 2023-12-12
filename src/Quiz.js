@@ -28,6 +28,7 @@ import image25 from "./images/image25.png";
 import image26 from "./images/image26.png";
 import image27 from "./images/image27.png";
 import image28 from "./images/image28.png";
+import image29 from "./images/image29.png";
 var r = document.querySelector(':root');
 
 export default function Quiz( {onBackToLecturesClick, questions }) {
@@ -65,7 +66,8 @@ export default function Quiz( {onBackToLecturesClick, questions }) {
 		"image25" : image25,
 		"image26" : image26,
 		"image27" : image27,
-		"image28" : image28
+		"image28" : image28,
+		"image29" : image29
 	}
 	
 	function delay(ms) {

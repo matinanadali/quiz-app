@@ -1306,5 +1306,104 @@
         { "answerText" : "bubblesort", "isCorrect" : false}
     ]
 }
-], []
+], [], [
+    {
+        "questionText" : "Μπορώ να ορίσω δικούς μου τύπους στη C.",
+        "answerOptions" : [
+           { "answerText" : "Σωστό", "isCorrect" : true},
+           { "answerText" : "Λάθος", "isCorrect" : false}
+       ] 
+    }, 
+    {
+        "questionText" : "Σε τι χρησιμοποιούμε το typedef στη C;",
+        "answerOptions" : [
+            { "answerText" : "Για να ορίσουμε συνώνυμα τύπων", "isCorrect" :true},
+            { "answerText" : "Για να ορίσουμε μεταβλητές", "isCorrect" : false},
+            { "answerText" : "Για να διαγράψουμε από τη μνήμη ένα struct", "isCorrect" : false},
+            { "answerText" : "Για να γράψουμε λίγο παραπάνω κώδικα", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Έστω typedef double trouble[1024] και sizeof(double) = 8 - ποιο είναι το sizeof(trouble);",
+        "answerOptions" : [
+            { "answerText" : "1024", "isCorrect" :false},
+            { "answerText" : "4096", "isCorrect" : false},
+            { "answerText" : "8192", "isCorrect" : true},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Έστω ότι οι int θέλουν 4 bytes για την αναπαράστασή τους. Για να δεσμεύσω μνήμη για έναν πίνακα 10000 int κάνω:",
+        "answerOptions" : [
+            { "answerText" : "int *array = malloc(10000)", "isCorrect" :false},
+            { "answerText" : "int *array = malloc(4)", "isCorrect" : false},
+            { "answerText" : "int *array = malloc(40000)", "isCorrect" : true},
+            { "answerText" : "Εξαρτάται", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Ποιο είναι το μέγεθος του struct {char c; int x; double d};",
+        "answerOptions" : [
+            { "answerText" : "1 + 4 + 8 = 13", "isCorrect" :false},
+            { "answerText" : "1 + 8 + 8 = 17", "isCorrect" : false},
+            { "answerText" : "4 + 4 + 8 = 16", "isCorrect" : false},
+            { "answerText" : "Εξαρτάται", "isCorrect" : true}
+        ]
+    },
+    {
+        "questionText" : "struct {int x; int y} point - ποια είναι η τιμή του point.y;",
+        "answerOptions" : [
+            { "answerText" : "0xFFFFFFFF", "isCorrect" :false},
+            { "answerText" : "0", "isCorrect" : false},
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "Ό,τι έτυχε να έχει η μνήμη σε εκείνη τη θέση", "isCorrect" : true}
+        ]
+    },
+    {
+        "questionText" : "struct {int x; int y} point; point = {42}; - ποια είναι η τιμή του point.y;",
+        "answerOptions" : [
+            { "answerText" : "42", "isCorrect" :false},
+            { "answerText" : "0", "isCorrect" : true},
+            { "answerText" : "1", "isCorrect" : false},
+            { "answerText" : "Ό,τι έτυχε να έχει η μνήμη σε εκείνη τη θέση", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Έστω struct {int x} cafe = {1}, bar = {2}; - η παράσταση cafe == bar αποτιμάται σε:",
+        "answerOptions" : [
+            { "answerText" : "1", "isCorrect" :false},
+            { "answerText" : "0", "isCorrect" : false},
+            { "answerText" : "Δεν αποτιμάται", "isCorrect" : true},
+            { "answerText" : "42", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Έστω struct {int x} cafe = {1}, bar = {2}; bar = cafe; - η παράσταση bar.x αποτιμάται σε:",
+        "answerOptions" : [
+            { "answerText" : "1", "isCorrect" :true},
+            { "answerText" : "2", "isCorrect" : false},
+            { "answerText" : "Δεν αποτιμάται", "isCorrect" : false},
+            { "answerText" : "42", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Τι θα τυπώσει το ακόλουθο πρόγραμμα;",
+        "questionImage" : "image29",
+        "answerOptions" : [
+            { "answerText" : "ManahManahManahManah", "isCorrect" :false},
+            { "answerText" : "ManahManah", "isCorrect" : false},
+            { "answerText" : "Manah", "isCorrect" : true},
+            { "answerText" : "{τίποτα}", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Θέλω να ταξινομήσω σε αύξουσα σειρά βαθμολογίας το struct student[1024] - χρησιμοποιώ τη συνάρτηση σύγκρισης:",
+        "answerOptions" : [
+            { "answerText" : "int comp(...si, ...s2) return s1.grade - s2.grade", "isCorrect" :true},
+            { "answerText" : "int comp(...si, ...s2) return s2.grade - s1.grade", "isCorrect" : false},
+            { "answerText" : "int comp(...si, ...s2) return s1.grade == s2.grade", "isCorrect" : false},
+            { "answerText" : "int comp(...si, ...s2) return s1.grade ^ s2.grade", "isCorrect" : false}
+        ]
+    }
+]
 ]
