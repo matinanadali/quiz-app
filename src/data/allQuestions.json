@@ -1405,5 +1405,96 @@
             { "answerText" : "int comp(...si, ...s2) return s1.grade ^ s2.grade", "isCorrect" : false}
         ]
     }
+], [
+    {
+        "questionText" : "Η έκφραση robin->hood είναι ισοδύναμη με:",
+        "answerOptions" : [
+            { "answerText" : "robin.(*hood)", "isCorrect" :false},
+            { "answerText" : "*robin.hood", "isCorrect" : false},
+            { "answerText" : "hood.robin", "isCorrect" : false},
+            { "answerText" : "(*robin).hood", "isCorrect" : true}
+        ]
+    },
+    {
+        "questionText" : "Σε τι χρησιμεύει η ένωση(union);",
+        "answerOptions" : [
+            { "answerText" : "Είναι ο μόνος τρόπος να δεσμεύσουμε χώρο για πίνακες", "isCorrect" :false},
+            { "answerText" : "Περιορίζει τον αριθμό των πεδίων μίας δομής", "isCorrect" : false},
+            { "answerText" : "Είναι εξαιρετική ομάδα", "isCorrect" : false},
+            { "answerText" : "Εξοικονομεί χώρο στη μνήμη", "isCorrect" : true}
+        ]
+    },
+    {
+        "questionText" : "Ποια η διαφορά ανάμεσα σε μία δομή (struct) και μία ένωση (union);",
+        "answerOptions" : [
+            { "answerText" : "Στη δομή κάθε πεδίο έχει τη δική του μνήμη, στην ένωση τη μοιράζονται", "isCorrect" :true},
+            { "answerText" : "Η δομή μπορεί να έχει πολλά πεδία, η ένωση μόνο ένα", "isCorrect" : false},
+            { "answerText" : "Η δομή μπορεί να έχει άλλες δομές, η ένωση όχι", "isCorrect" : false},
+            { "answerText" : "Τrick question, δεν υπάρχει διαφορά", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Μία αυτοαναφορική δομή:",
+        "answerOptions" : [
+            { "answerText" : "περιέχει τον εαυτό της", "isCorrect" :false},
+            { "answerText" : "έχει ένα πεδίο τύπου δείκτη", "isCorrect" : false},
+            { "answerText" : "περιέχει πεδίο τύπου δείκτη που δείχνει σε δομή ίδιου τύπου", "isCorrect" : true},
+            { "answerText" : "περιέχει αυτοαναφορικούς ακεραίους", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Τι δεν μπορώ να κάνω σε bitfields(πεδία διφύων) στη C;",
+        "answerOptions" : [
+            { "answerText" : "Να αναφερθώ στη διεύθυνση ενός bitfield", "isCorrect" :false},
+            { "answerText" : "Να βρω το μέγεθος με sizeof", "isCorrect" : false},
+            { "answerText" : "Να αποθηκεύσω τιμές μεγαλύτερες του 2^n-1 όπου n ο αριθμός των bits", "isCorrect" : false},
+            { "answerText" : "Όλα τα παραπάνω", "isCorrect" : true}
+        ]
+    },
+    {
+        "questionText" : "Το struct node {int x; struct node *next} είναι δομικό στοιχείο για:",
+        "answerOptions" : [
+            { "answerText" : "union (ένωση)", "isCorrect" :false},
+            { "answerText" : "binary tree (δυαδικό δέντρο)", "isCorrect" : false},
+            { "answerText" : "single linked list (απλά συνδεδεμένης λίστας)", "isCorrect" : true},
+            { "answerText" : "graph (γράφος)", "isCorrect" : false}
+        ]
+    },
+    {
+        "questionText" : "Το struct node {int x; struct node *left; struct node *right} αντιστοιχεί σε:",
+        "answerOptions" : [
+            { "answerText" : "bitfield (πεδίο διφύων)", "isCorrect" :false},
+            { "answerText" : "binary tree (δυαδικό δέντρο)", "isCorrect" : true},
+            { "answerText" : "single linked list (απλά συνδεδεμένη λίστα)", "isCorrect" : false},
+            { "answerText" : "cycled graph (κυκλικός γράφος)", "isCorrect" : false}
+        ]
+    },
+    {
+    "questionText" : "Έστω union station {int x; char name[20]; double d} - ποιο είναι το sizeof(union station);",
+    "answerOptions" : [
+        { "answerText" : "sizeof(int)", "isCorrect" :false},
+        { "answerText" : "sizeof(int) + sizeof(name) + sizeof(double)", "isCorrect" : false},
+        { "answerText" : "max(sizeof(int), sizeof(name), sizeof(double))", "isCorrect" : true},
+        { "answerText" : "42", "isCorrect" : false}
+    ]
+},
+{
+"questionText" : "Έστω enum trafficLights {Red = 0, Yellow, Green} - Ποια είνα η τιμή του Green;",
+    "answerOptions" : [
+        { "answerText" : "0", "isCorrect" :false},
+        { "answerText" : "1", "isCorrect" : false},
+        { "answerText" : "2", "isCorrect" : true},
+        { "answerText" : "'G", "isCorrect" : false}
+    ]
+},
+{
+    "questionText" : "Έστω ένα δυαδικό δέντρο με n στοιχεία -  το ελάχιστο δυνατό βάθος του δέντρου είναι:",
+        "answerOptions" : [
+            { "answerText" : "Ο(n)", "isCorrect" :false},
+            { "answerText" : "O(logn)", "isCorrect" : true},
+            { "answerText" : "O(sqrt(n))", "isCorrect" : false},
+            { "answerText" : "'O(1)", "isCorrect" : false}
+        ]
+    }
 ]
 ]
