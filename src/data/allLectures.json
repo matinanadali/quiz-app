@@ -124,6 +124,24 @@
         "presentation-link" :  "https://progintro.github.io/resources/lec20.pdf",
         "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=c9fd34ae",
         "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=36968b12"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 21: Λίστες",
+        "presentation-link" :  "https://progintro.github.io/resources/lec21.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/player?rid=9e6b448d",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=503fc9bb"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 22: Δέντρα",
+        "presentation-link" :  "https://progintro.github.io/resources/lec22.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=e69c3b72",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=8f6697f5"
+    },
+    {
+        "lecture-title" : 	"Διάλεξη 23: Προχωρημένα Θέματα",
+        "presentation-link" :  "https://progintro.github.io/resources/lec23.pdf",
+        "lecture-link-1" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=4b312592",
+        "lecture-link-2" : "https://delos.uoa.gr/opendelos/videolecture/show?rid=fb6a078e"
     }
 
 

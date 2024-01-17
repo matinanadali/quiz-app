@@ -1496,5 +1496,92 @@
             { "answerText" : "'O(1)", "isCorrect" : false}
         ]
     }
+], [],[
+    {
+        "questionText" : "Έχω ένα δέντρο με n επίπεδα: πόσους κόμβους έχει;",
+            "answerOptions" : [
+                { "answerText" : "2^n", "isCorrect" :false},
+                { "answerText" : "logn", "isCorrect" : false},
+                { "answerText" :"n", "isCorrect" : false},
+                { "answerText" : "Εξαρτάται", "isCorrect" : true}
+            ]
+        },
+        {
+            "questionText" : "Έχω ένα τέλειο δυαδικό δέντρο βάθους n: πόσους κόμβους έχει;",
+                "answerOptions" : [
+                    { "answerText" : "~2^n", "isCorrect" :true},
+                    { "answerText" : "~logn", "isCorrect" : false},
+                    { "answerText" :"~n", "isCorrect" : false},
+                    { "answerText" : "Εξαρτάται", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Έχω ένα τέλειο δυαδικό δέντρο με n κόμβους: πόσα φύλλα έχει;",
+                "answerOptions" : [
+                    { "answerText" : "~2^n", "isCorrect" :false},
+                    { "answerText" : "~n/2", "isCorrect" : true},
+                    { "answerText" :"~n", "isCorrect" : false},
+                    { "answerText" : "Εξαρτάται", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Ποιος αλγόριθμος αναζήτησης είναι ο καλύτερος;",
+                "answerOptions" : [
+                    { "answerText" : "Breadth first search", "isCorrect" :false},
+                    { "answerText" : "Depth first search", "isCorrect" : false},
+                    { "answerText" :"Beam search", "isCorrect" : false},
+                    { "answerText" : "Εξαρτάται", "isCorrect" : true}
+                ]
+        },
+        {
+            "questionText" : "Μόλις διέγραψα ένα στοιχείο από μία λίστα. Τι θα συμβεί αν προσπαθήσω να το διαβάσω;",
+                "answerOptions" : [
+                    { "answerText" : "Το πρόγραμμα θα σκάσει (segmentation fault)", "isCorrect" :true},
+                    { "answerText" : "Όλα θα πάνε καλά και θα διαβάσω κανονικά το στοιχείο", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Η προσθήκη στοιχείου στη μέση μίας απλά συνδεδεμένης λίστας γίνεται σε χρόνο:",
+                "answerOptions" : [
+                    { "answerText" : "O(n^2)", "isCorrect" :false},
+                    { "answerText" : "O(sqrt(n))", "isCorrect" : false},
+                    { "answerText" :"O(n)", "isCorrect" : true},
+                    { "answerText" : "O(1)", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Έχω ένα δυαδικό δέντρο αναζήτησης (BST) με n κόμβους. Μπορεί να χρειαστώ O(n) χρόνο για να βρω ένα στοιχείο:",
+                "answerOptions" : [
+                    { "answerText" : "όταν το δέντρο είναι τέλειο και έχει όλα τα φύλλα", "isCorrect" :false},
+                    { "answerText" : "όταν το δέντρο είναι εκφυλισμένο", "isCorrect" : true},
+                    { "answerText" :"όταν το δέντρο είναι ισορροπημένο και δεν ξέρω προς τα πού να ψάξω", "isCorrect" : false},
+                    { "answerText" : "δεν γίνεται: σε BST πάντα χρειάζομαι O(logn)", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Θέλω να γράψω έναν αποτιμητή που αναπαρίσταται με δέντρο. Προτιμώ διάσχιση:",
+                "answerOptions" : [
+                    { "answerText" : "preorder", "isCorrect" :false},
+                    { "answerText" : "inorder", "isCorrect" : false},
+                    { "answerText" :"postorder", "isCorrect" : true},
+                    { "answerText" : "δεν χρειάζομαι διάσχιση, το κάνω σε Ο(1)", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Έχω ένα δυαδικό δέντρο αναζήτησης. Για να τυπώσω τα στοιχεία του ταξινομημένα χρησιμοποιώ διάσχιση:",
+                "answerOptions" : [
+                    { "answerText" : "preorder", "isCorrect" :false},
+                    { "answerText" : "inorder", "isCorrect" : true},
+                    { "answerText" :"postorder", "isCorrect" : false},
+                    { "answerText" : "δεν γίνεται", "isCorrect" : false}
+                ]
+        },
+        {
+            "questionText" : "Έστω Τ ένα πλήρες δέντρο αναζήτησης με n κόμβους. Μπορώ να βρω ένα στοιχείο με BFS σε Ο(logn).",
+                "answerOptions" : [
+                    { "answerText" : "Σωστό", "isCorrect" :false},
+                    { "answerText" : "Λάθος", "isCorrect" : true}
+                ]
+        }
 ]
 ]
