@@ -166,7 +166,7 @@
         ] 
     },
     {
-        "questionText" : "Τι θα τυπώσει το πρόγραμμα: int a = 40; printf(\"%d \", a++);printf(\"%d \", a++);",
+        "questionText" : "Τι θα τυπώσει το πρόγραμμα: int a = 40; printf(\"%d \", a++);printf(\"%d \", ++a);",
         "answerOptions" : [
             { "answerText" : "40 42", "isCorrect" : true},
             { "answerText" : "41 42", "isCorrect" : false},
