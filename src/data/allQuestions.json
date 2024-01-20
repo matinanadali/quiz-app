@@ -638,7 +638,7 @@
         ] 
     },
     {
-        "questionText" : "Η έκφραση (*ptr + 4) είναι ισοδύναμη με την έκφραση ptr[4].",
+        "questionText" : "Η έκφραση *(ptr + 4) είναι ισοδύναμη με την έκφραση ptr[4].",
         "answerOptions" : [
             { "answerText" : "Σωστό", "isCorrect" : true},
             { "answerText" : "Λάθος", "isCorrect" : false}
