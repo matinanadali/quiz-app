@@ -204,9 +204,9 @@
     {
         "questionText" : "Ποια είναι η τιμή της παράστασης (9 / 10) ? (5 & 3) : (8 | 5);",
         "answerOptions" : [
-            { "answerText" : "13", "isCorrect" : false},
+            { "answerText" : "13", "isCorrect" : true},
             { "answerText" : "0.9", "isCorrect" : false},
-            { "answerText" : "1", "isCorrect" : true},
+            { "answerText" : "1", "isCorrect" : false},
             { "answerText" : "11", "isCorrect" : false}
         ] 
     },
