@@ -735,7 +735,7 @@
         ] 
     },
     {
-        "questionText" : "Έστω sizeof(int) = 4 και sizeof(*int) = 8. Τι θα τυπώσει το ακόλουθο πρόγραμμα; ",
+        "questionText" : "Έστω sizeof(int) = 4 και sizeof(int*) = 8. Τι θα τυπώσει το ακόλουθο πρόγραμμα; ",
         "questionImage" : "image11",
         "typeQuestion" : "8",
         "answerOptions" : [] 
