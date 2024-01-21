@@ -431,7 +431,7 @@
         ] 
     },
     {
-        "questionText" : "Τι θα δούμε στην κονσόλα αν τρέξουμε  printf(\"Hello!\\r World\n\")",
+        "questionText" : "Τι θα δούμε στην κονσόλα αν τρέξουμε  printf(\"Hello!\\u005Cr World\n\")",
         "answerOptions" : [
             { "answerText" : "Hello", "isCorrect" : false},
             { "answerText" : "World", "isCorrect" : false},
