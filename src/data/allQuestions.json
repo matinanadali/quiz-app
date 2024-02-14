@@ -1084,8 +1084,8 @@
         "questionText" : "Ο ακόλουθος κώδικας είναι σωστός.",
         "questionImage" : "image20",
          "answerOptions" : [
-            { "answerText" : "Σωστό", "isCorrect" : false},
-            { "answerText" : "Λάθος", "isCorrect" : true}
+            { "answerText" : "Σωστό", "isCorrect" : true},
+            { "answerText" : "Λάθος", "isCorrect" : false}
         ] 
     },
     {
@@ -1252,7 +1252,7 @@
     ]
 },
 {
-    "questionText" : "Η χρονική πολυπλοκότητaα στη μέση περίπτωση (average case) της quicksort είναι:",
+    "questionText" : "Η χρονική πολυπλοκότητα στη μέση περίπτωση (average case) της quicksort είναι:",
     "answerOptions" : [
         { "answerText" : "Ο(n^2)", "isCorrect" :false},
         { "answerText" : "O(nlog(n))", "isCorrect" : true},
@@ -1484,7 +1484,7 @@
         { "answerText" : "0", "isCorrect" :false},
         { "answerText" : "1", "isCorrect" : false},
         { "answerText" : "2", "isCorrect" : true},
-        { "answerText" : "'G", "isCorrect" : false}
+        { "answerText" : "G", "isCorrect" : false}
     ]
 },
 {
@@ -1493,7 +1493,7 @@
             { "answerText" : "Ο(n)", "isCorrect" :false},
             { "answerText" : "O(logn)", "isCorrect" : true},
             { "answerText" : "O(sqrt(n))", "isCorrect" : false},
-            { "answerText" : "'O(1)", "isCorrect" : false}
+            { "answerText" : "O(1)", "isCorrect" : false}
         ]
     }
 ], [],[
